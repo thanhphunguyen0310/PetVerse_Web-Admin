@@ -1,0 +1,99 @@
+/* Container styling */
+.transaction-table-container {
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.transaction-table-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+/* Title styling */
+.table-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 12px 0;
+}
+
+/* Table styling */
+.custom-transaction-table .ant-table {
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+.custom-transaction-table .ant-table-tbody > tr {
+  height: 82.8px; /* Chiều cao cố định */
+}
+.custom-transaction-table .ant-table-thead > tr > th {
+  background: #f2f2f2;
+  color: #595959;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+.custom-transaction-table .ant-table-tbody > tr > td {
+  text-align: center;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.custom-transaction-table .ant-table-tbody > tr:hover {
+  background-color: #f7faff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Transaction title styling */
+/* For credit transactions */
+.title-credit {
+  font-weight: bold;
+  color:  #28a745; /* Blue for credit */
+}
+
+/* For top-up transactions */
+.title-topup {
+  font-weight: bold;
+  color: #1976d2;/* Teal for top-up */
+}
+
+/* For debit transactions */
+.title-debit {
+  color: #dc3545; /* Red for debit */
+  font-weight: bold;
+}
+
+/* For refund transactions */
+.title-refund {
+  font-weight: bold;
+  color :#ffc107;/* Green for refund */
+}
+
+/* For salary transactions */
+.title-salary {
+  font-weight: bold;
+  color: #ffc107; /* Yellow for salary */
+}
+
+/* Transaction amount styling */
+.transaction-amount {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .custom-transaction-table .ant-table-thead > tr > th,
+  .custom-transaction-table .ant-table-tbody > tr > td {
+    font-size: 12px;
+  }
+
+  .table-title {
+    font-size: 18px;
+  }
+}

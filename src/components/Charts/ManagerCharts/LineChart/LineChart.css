@@ -1,0 +1,28 @@
+.lineChartContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(204, 198, 198, 0.5);
+    background-color: #fff; /* Set a light background for better contrast */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.line-chart-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.line-chart-title {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Dark color for title */
+}
+
+/* Hover effect for container */
+.lineChartContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}

@@ -1,0 +1,62 @@
+.login-form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Light semi-transparent to harmonize with the banner */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    display: flex;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.login-form-container .ant-typography {
+    margin: 0 0 24px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #3b4a66; 
+}
+
+.login-form-container .ant-input-affix-wrapper:hover, 
+.login-form-container .ant-input-affix-wrapper-focused {
+    border-color: rgba(255, 153, 102, 0.8) !important; 
+}
+.login-form-container .ant-input-affix-wrapper:focus-within {
+    box-shadow: 0 0 8px rgba(243, 184, 155, 0.8); /* Change to your desired box shadow */
+}
+.login-form-container .ant-input-affix-wrapper-error {
+    border-color: #ff4d4f !important; /* Keep error color as is */
+    background-color: transparent !important;
+}
+
+.login-form-container .input-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #2f3542;
+    border: 2px solid rgba(255, 153, 102, 0.8);
+    border-radius: 20px;
+}   
+
+.login-form-container .input-box input::placeholder {
+    color: #7d8fa3; 
+}
+
+.ant-checkbox-wrapper, .forgot-password {
+    color: #333; 
+}
+
+.login-btn {
+    width: 50%;
+    height: 45px;
+    background-color: #3D4ED9;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}

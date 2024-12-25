@@ -1,0 +1,10 @@
+.title{
+    font-family: 'Avenir', sans-serif;
+    color: #3D4ED9 !important;
+    margin: 0 !important;
+}
+@media (max-width: 768px) {
+    .sidebar-title {
+        display: none;
+    }
+}

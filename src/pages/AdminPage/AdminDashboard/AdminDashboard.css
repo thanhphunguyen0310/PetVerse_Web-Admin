@@ -1,0 +1,10 @@
+/* .equal-height-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+  
+  .equal-height-col > * {
+    flex-grow: 1;
+  } */
+  

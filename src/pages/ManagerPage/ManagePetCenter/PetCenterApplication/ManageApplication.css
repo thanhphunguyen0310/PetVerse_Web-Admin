@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .ant-table {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .ant-table th,
+  .ant-table td {
+    padding: 8px; /* Less padding for smaller screens */
+  }
+}
+.user-image .ant-image-mask {
+  border-radius: 50% !important;
+}
+.user-certification .ant-image-mask {
+  background: none !important; /* Remove default background */
+}
+
+/* .user-certification .ant-image-mask::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

@@ -1,0 +1,29 @@
+.site-layout-background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #fff;
+}
+.header-left, .header-right{
+    padding: 10px 0px;
+}
+.header-right{
+    margin-right: 16px;
+}
+.site-layout-background .toggle-button{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.site-layout-background .ant-typography{
+    margin: 0;
+}
+.site-layout-background .toggle-button .ant-btn-icon{
+    color: black;
+}
+@media (max-width: 768px) {
+    .header-title, .notification {
+        display: none; /* Hide the title on small screens */
+    }
+}

@@ -1,0 +1,10 @@
+.login-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url('../../assets/imgs/login_background.jpg') no-repeat; */
+    background: url('../../assets/imgs/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position:center -200px;
+}
